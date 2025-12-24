@@ -1,9 +1,12 @@
 import mammoth from "mammoth";
 import Resume from "../models/Resume.js";
 import { createRequire } from "module";
+// import pdf from "pdf-parse";
+
 
 const require = createRequire(import.meta.url);
 const pdfParse = require("pdf-parse");
+
 
 // 🔹 PASTE basicParse HERE 👇
 function basicParse(text) {
