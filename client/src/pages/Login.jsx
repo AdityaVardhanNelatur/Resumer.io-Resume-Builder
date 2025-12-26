@@ -31,7 +31,7 @@ export default function Login() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-100 to-purple-100">
       <div className="bg-white p-8 rounded-xl shadow-xl w-full max-w-md">
         <h2 className="text-2xl font-bold text-center mb-6 text-indigo-600">
-          Welcome Back
+          Welcome
         </h2>
 
         <input
