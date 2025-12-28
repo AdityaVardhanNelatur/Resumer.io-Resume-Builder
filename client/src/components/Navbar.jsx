@@ -20,7 +20,7 @@ const Navbar = () => {
         >
           <img 
             src={logo}  
-            className="h-10 w-auto object-contain"
+            className="h-10 md:h-14 w-auto"
           />
         </div>
 
