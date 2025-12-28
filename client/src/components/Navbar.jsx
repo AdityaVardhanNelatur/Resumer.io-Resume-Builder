@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import logo from '../assets/logo.png'; // Adjust path to your logo
-import logo2 from '../assets/logo2.png'
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -20,7 +19,7 @@ const Navbar = () => {
           className="flex items-center gap-2 cursor-pointer"
         >
           <img 
-            src={logo2}  
+            src={logo}  
             className="h-10 w-auto object-contain"
           />
         </div>
